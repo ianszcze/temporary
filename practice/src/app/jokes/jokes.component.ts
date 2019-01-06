@@ -8,7 +8,11 @@ import { JokeServiceService } from '../../services/joke-service.service';
   styleUrls: ['./jokes.component.css']
 })
 export class JokesComponent implements OnInit {
+<<<<<<< HEAD
   variable: number = 1;
+=======
+  variable: string = "pinching";
+>>>>>>> 46829d5c6b855e1220e3219dca379062129a3262
   constructor(private JokeService: JokeServiceService) { }
 
   ngOnInit() {
