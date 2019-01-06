@@ -1,0 +1,15 @@
+<p>
+  user-info works!
+</p>
+
+<button id="thisButton" (click)=load()>Show</button>
+<div *ngIf="users">
+    <h2>My Users
+        <ul class="users">
+            <li *ngFor="let user of users">
+                <p>Id: {{ user.id }} Name: {{ user.name }} Age: {{user.age}}</p>
+            </li>
+        </ul>
+    </h2>
+</div>
+
