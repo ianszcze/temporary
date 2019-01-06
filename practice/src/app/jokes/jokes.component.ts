@@ -8,7 +8,7 @@ import { JokeServiceService } from '../../services/joke-service.service';
   styleUrls: ['./jokes.component.css']
 })
 export class JokesComponent implements OnInit {
-
+  variable: string = "pinching";
   constructor(private JokeService: JokeServiceService) { }
 
   ngOnInit() {
